@@ -369,6 +369,45 @@ h4.progress-tittle-w3 {
 
 /*----*/
 
+/**--skills--*/
+
+.title {
+    font-weight: bold;
+    font-size: 20px;
+    color: #db3a34;
+  }
+  
+  .bar {
+    width: 90%;
+    height: 35px;
+    background: #fff;
+    border-radius: 5px;
+    position: relative;
+    transition: all 2s linear;
+  }
+  
+  .bar-1,
+  .my-skills {
+    width: 80%;
+    margin: 10px auto 25px;
+  }
+  
+  .bar-inner {
+    width: 0;
+    height: 35px;
+    line-height: 35px;
+    background: #db3a34;
+    border-radius: 5px 0 0 5px;
+  }
+  
+  .bar-percent {
+    position: absolute;
+    right: 10px;
+    top: 5px;
+    font-size: 18px;
+  }
+
+  
 /*--//about--*/
 
 .services {
@@ -543,24 +582,29 @@ p.sub-meta {
     background: #edf3f3;
     padding: 6px;
 }
+.img-fluid{
+    height: 200px;
+    object-fit:cover;
+    width: 100%;
+}
 
 .proj_gallery_grid1_pos {
     background: #030605;
     bottom: 23px;
     left: 30px;
-    opacity: 0;
+    opacity: 0.7;
     padding: 1em;
     position: absolute;
     right: 30px;
     text-align: center;
-    visibility: hidden;
-    -webkit-transform: scaleX(-1);
+    /* visibility: hidden; */
+    /* -webkit-transform: scaleX(-1);
     transform: scaleX(-1);
     -moz-transform: scaleX(-1);
     -o-transform: scaleX(-1);
     -ms-transform: scaleX(-1);
     -webkit-transition: all 0.8s ease;
-    transition: all 0.8s ease;
+    transition: all 0.8s ease; */
 }
 
 .proj_gallery_grid1_pos h3 {
@@ -1576,6 +1620,10 @@ ul.social-icons li a:hover {
     }
     .contact {
         height: 168vw;
+    }
+    .img-fluid{
+        height: 270px;
+      
     }
 
 }
