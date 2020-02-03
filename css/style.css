@@ -65,6 +65,31 @@ ul {
 }
 
 
+.svg_header {
+  position: relative;
+  height: 100px;
+  background-image: linear-gradient(#009FFD,
+#2A2A72);
+}
+
+
+.svg_header  h1 {
+  color: white;
+padding: 10px 0;
+  font: 30px "Arial";
+  text-align: center;
+}
+
+svg {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 80px;
+}
+
+#about{
+    margin-top: -6em;
+}
 /*--/header --*/
 
 header.banner_section {
