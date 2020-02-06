@@ -67,7 +67,7 @@ ul {
 
 .svg_header {
   position: relative;
-  height: 100px;
+  height: 110px;
   background-image: linear-gradient(#009FFD,
 #2A2A72);
 }
@@ -88,7 +88,7 @@ svg {
 }
 
 #about{
-    margin-top: -6em;
+    margin-top: -7em;
 }
 /*--/header --*/
 
@@ -371,6 +371,10 @@ a.btn.work.active {
 
 /*--//banner--*/
 
+
+.margin{
+    margin-bottom: 25px;;
+}
 /*--/about--*/
 
 h4.sub-tittle-w3 {
@@ -391,12 +395,30 @@ h3.tittle-w3 {
 /*----*/
 
 h4.progress-tittle-w3 {
-    color: #4f4f50;
-    font-size: 0.85em;
+    color: #fff;
+    font-size: 1.2em;
     text-transform: uppercase;
-    font-weight: 600;
+    font-weight: 700;
     margin-bottom: 1em;
 }
+
+.progress-one{
+    background: url(../images/serve.jpg) no-repeat 0px 0px;
+    background-size: cover;
+    background-attachment: fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    -ms-background-size: cover;
+    position: relative;
+    /* background-color: rgba(255,0,0, 0.9); */
+}
+.progress-one .back-drop {
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 10px;
+    width: 100%;
+}
+
 
 .progress-one .progress {
     height: 0.5rem;
@@ -1007,6 +1029,9 @@ p.sub {
 }
 
 @media(max-width:991px) {
+    #about{
+        margin-top: -5em;
+    }
     .contact_grids_info {
         padding: 0;
         margin-top: 1em;
@@ -1053,9 +1078,11 @@ p.sub {
 /*--//responsive--*/
 
 /*-- /footer --*/
-
+.footer{
+    margin-top: -5em;
+}
 .footer-end-grid h2 {
-    margin-top: 2em;
+    margin-top: 1em;
 }
 
 .footer-end-grid h2 a {
@@ -1398,6 +1425,10 @@ ul.social-icons li a:hover {
 }
 
 @media(max-width:800px) {
+    #about{
+        margin-top: -4em;
+    }
+
     #brand {
         padding-left: 10px;
         float: left;
@@ -1499,6 +1530,8 @@ ul.social-icons li a:hover {
 }
 
 @media(max-width:640px) {
+  
+
     .testimonials_grid p {
         width: 96%;
         margin: 1em auto 0;
@@ -1572,6 +1605,10 @@ ul.social-icons li a:hover {
 }
 
 @media(max-width:568px) {
+    #about{
+        margin-top: -4em;
+    }
+
     .banner_section {
         height: 55vw;
     }
@@ -1627,6 +1664,7 @@ ul.social-icons li a:hover {
 }
 
 @media(max-width:480px) {
+    
     .banner-info h3 {
         font-size: 2em;
     }

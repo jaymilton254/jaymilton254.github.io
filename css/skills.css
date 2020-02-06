@@ -12,7 +12,7 @@ https://github.com/jamalhassouni
   width: 100px;
   margin:0 auto;
 }
- 
+
 .cdev div {
   position: absolute;
   height: 100px;
@@ -24,11 +24,11 @@ https://github.com/jamalhassouni
   position: absolute;
   font-family: Arial;
   font-size: 25px;
-  line-height: 75px;
-  height: 75px;
-  width: 75px;
-  left: 12.5px;
-  top: 12.5px;
+  line-height: 85px;
+  height: 85px;
+  width: 85px;
+  left: 7.5px;
+  top: 7.5px;
   text-align: center;
   border-radius: 50%;
   background-color: white;
@@ -52,6 +52,13 @@ https://github.com/jamalhassouni
   transform: rotate(180deg);
   opacity: 0;
   background-color: #4b86db;
+}
+.skill-title{
+  text-align: center;
+  font-size: 17px;
+  margin-top: 5px;
+  font-weight: 500;
+  color: #fff;
 }
  
 @keyframes
