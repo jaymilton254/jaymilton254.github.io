@@ -1,9 +1,4 @@
-/*--
-	Author: W3Layouts
-	Author URL: http://w3layouts.com
-	License: Creative Commons Attribution 3.0 Unported
-	License URL: http://creativecommons.org/licenses/by/3.0/
---*/
+
 
 html,
 body {
@@ -68,10 +63,23 @@ ul {
 .svg_header {
   position: relative;
   height: 110px;
-  background-image: linear-gradient(#009FFD,
-#2A2A72);
+  background-image: linear-gradient(#2A2A72,#009FFD
+      );
 }
 
+@-webkit-keyframes background {
+  0% { background-image: #f99; }
+  33% { background-image: #9f9; }  
+  67% { background-image: #99f; }
+  100% { background-image: #f99; }
+}
+
+@keyframes background {
+  0% {background-image: #f99; }
+  33% { background-image: #9f9; }  
+  67% {background-image: #99f; }
+  100% { background-image: #f99; }
+}
 
 .svg_header  h1 {
   color: white;
@@ -349,7 +357,7 @@ a.btn.work.active {
 .banner-info h3 {
     position: relative;
     color: rgba(0, 0, 0, .3);
-    font-size: 4em;
+    font-size: 3em;
     font-weight: 700;
 }
 
@@ -1245,7 +1253,7 @@ ul.social-icons li a:hover {
         font-size: 1em;
     }
     .banner-info h3 {
-        font-size: 3em;
+        font-size: 2.2em;
     }
     #brand {
         padding-left: 30px;
@@ -1462,7 +1470,7 @@ ul.social-icons li a:hover {
         padding: 1em 3em;
     }
     .banner-info h3 {
-        font-size: 2.5em;
+        font-size: 1.8em;
     }
     h4.sub-tittle-w3 {
         font-size: 0.8em;
@@ -1571,7 +1579,7 @@ ul.social-icons li a:hover {
         font-size: 0.9em;
     }
     .banner-info h3 {
-        font-size: 2.2em;
+        font-size: 1.5em;
     }
 }
 
@@ -1666,7 +1674,7 @@ ul.social-icons li a:hover {
 @media(max-width:480px) {
     
     .banner-info h3 {
-        font-size: 2em;
+        font-size: 1.2em;
     }
     .banner-info h5,
     .banner-info h6 {
@@ -1709,7 +1717,7 @@ ul.social-icons li a:hover {
         width: 48%;
     }
     .banner-info h3 {
-        font-size: 1.8em;
+        font-size: 1em;
     }
     .banner-info {
         position: absolute;
@@ -1790,7 +1798,7 @@ ul.social-icons li a:hover {
 
 @media(max-width:320px) {
     .banner-info h3 {
-        font-size: 1.5em;
+        font-size: 0.8em;
     }
     div#word-mark h1 a {
         font-size: 0.6em;
