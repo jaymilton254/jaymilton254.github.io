@@ -1,737 +1,152 @@
-
-
 <!DOCTYPE html>
-<html lang="zxx">
+<html lang="en">
 
 <head>
-    <title>James Portfolio</title>
-    <!-- Meta tag Keywords -->
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta charset="UTF-8" />
-    <meta name="keywords" content="my portfolio" />
-    <!-- //Meta tag Keywords -->
-
-    <!-- Custom-Files -->
-    <link rel="stylesheet" href="css/bootstrap.css">
-    
-    <!-- Bootstrap-Core-CSS -->
-    <link href="css/simpleLightbox.css" rel='stylesheet' type='text/css' />
-    <link href="css/roadmap.css" rel="stylesheet" type="text/css" />
-    <!-- Banner-Slider-CSS -->
-    <link rel="stylesheet" href="css/snow.css">
-    <link rel="stylesheet" href="css/aos.css">
-    <link rel="stylesheet" href="css/w3.css">
-    <link href='css/aos-animation.css' rel='stylesheet prefetch' type="text/css" media="all" />
-    <link rel="stylesheet" href="css/style.css" type="text/css" media="all" />
-       <link rel="stylesheet" href="css/skills.css">
-    <!-- Style-CSS -->
-    <link rel="stylesheet" href="css/fontawesome-all.css">
-    <!-- Font-Awesome-Icons-CSS -->
-    
-    <!-- /Fonts -->
-    <link href="//fonts.googleapis.com/css?family=Roboto:100,100i,300,400,400i,500,500i,700,700i,900" rel="stylesheet">
-    <!-- //Fonts -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+    <title>portfolio</title>
+    <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto+Mono">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700">
+    <link rel="stylesheet" href="assets/fonts/font-awesome.min.css">
+    <link rel="stylesheet" href="assets/css/Dark-Footer.css">
+    <link rel="stylesheet" href="assets/css/Header-Blue--Sticky-Header--Smooth-Scroll.css">
+    <link rel="stylesheet" href="assets/css/Modern-Contact-Form.css">
+    <link rel="stylesheet" href="assets/css/styles.css">
 </head>
 
 <body>
-    <!-- mian-content -->
-    <header class="index-banner" id="home">
-        <!-- nav -->
-        <nav class="main-header d-flex">
-            <div id="brand">
-                <div id="logo">
-                    <a href="index.html">
-                      <i class="fas fa-crosshairs"></i>
-                    </a>
-                </div>
-                <div id="word-mark">
-                    <h1>
-                        <a href="index.html">JAMES</a>
-                    </h1>
-                </div>
-            </div>
-            <div id="menu">
-                <div id="menu-toggle">
-                    <div id="menu-icon">
-                        <!-- <div class="bar"></div>
-                        <div class="bar"></div>
-                        <div class="bar"></div> -->
-                        <div class="w3-text-white"><i class="fa fa-bars w3-medium"></i></div>
+    <div id="home" style="font-family: 'Roboto Mono', monospace;">
+        <div class="header-blue">
+            <nav class="navbar navbar-dark navbar-expand-md sticker" style="padding-top:30px;z-index:99;">
+                <div class="container"><a class="navbar-brand" style="font-size: 40px;font-family: 'Source Sans Pro', sans-serif;font-weight: 800;" href="#">J<span style="color: #ff4a57;">.</span><span></span><span>K</span></a><button data-bs-toggle="collapse" class="navbar-toggler" data-bs-target="#navcol-1"><span class="visually-hidden">Toggle navigation</span><span class="navbar-toggler-icon"></span></button>
+                    <div class="collapse navbar-collapse" id="navcol-1">
+                        <ul class="navbar-nav ms-auto">
+                            <li class="nav-item"><a class="nav-link active" href="#home" target="_top">Home </a></li>
+                            <li class="nav-item"></li>
+                            <li class="nav-item"><a class="nav-link active" href="#skillset">Experience</a></li>
+                            <li class="nav-item"><a class="nav-link active" href="#folio">Works</a></li>
+                            <li class="nav-item"></li>
+                        </ul>
                     </div>
-                    
                 </div>
-                <ul class="text-center nav-honey">
-                    <li>
-                        <a href="index.html" class="active ">Home</a>
-                    </li>
-                    <li>
-                        <a class="scroll" href="#about">Skills</a>
-                    </li>
-                    <li>
-                        <a class="scroll" href="#experience">Experience</a>
-                    </li>
-                    <li>
-                        <a class="scroll" href="#projects">Projects</a>
-                    </li>
-                    <li>
-                        <a class="scroll" href="#contact">Contact</a>
-                    </li>
-                    <!-- <li class="login">
-                        <button type="button" class="btn login-btn text-uppercase " data-toggle="modal" data-target="#exampleModalCenter">
-                          Login
-                        </button>
-                    </li> -->
-                </ul>
-            </div>
-            <div class="clearfix"></div>
-        </nav>
-        <!-- //nav -->
-        <!-- banner -->
-        <div class="banner_section">
-            <div class="snow-container">
-                <div class="snow foreground"></div>
-                <div class="snow foreground layered"></div>
-                <div class="snow middleground"></div>
-                <div class="snow middleground layered"></div>
-                <div class="snow background"></div>
-                <div class="snow background layered"></div>
-            </div>
-            <div class="banner-info text-uppercase">
-                <h6 data-aos="fade-right">Welcome to my world</h6>
-                <h5 data-aos="fade-right">Hello, my name is James Kioko</h5>
-                <h3 class="w3-text-white">I'm a Web Designer & Developer</h3>
-                <div class="ban-buttons mt-3" data-aos="fade-right">
-                    <a class="btn work" href="assets/James_Kioko_resume.pdf" download="James_resume">My Resume</a>
-                    <a class="btn work scroll active" href="#contact">Here me</a>
-                </div>
-
-            </div>
-        </div>
-        <!-- //banner -->
-    </header>
-    <!-- //header -->
-    <!--// banner-slider -->
-  
-    <header class="svg_header">
-      <h1 class="tittle-w3 text-uppercase mb-lg-5 mb-3">My Skills</h1>
-      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 100" preserveAspectRatio="none">
-        <circle fill="white" cx="0" cy="100" r="100" />
-        <circle fill="white" cx="200" cy="100" r="100" />
-      </svg>
-    </header>
-
-  <!-- banner-bottom-wthree -->
-    <section class="py-lg-5 py-md-5 py-4" id="about">
-        <div class="container">
-            <div class="inner-sec-w3ls py-lg-5 py-4">
-                <div class="info-about text-center">
-
-                    <div class="row mt-lg-5 mt-3">
-                        <div class="col-lg-12 progress-info-content text-left">
-                            <div class="progress-one w3-card-4" data-aos="fade-up">
-                                <div class="back-drop">
-                                <h4 class="progress-tittle-w3">Web Design</h4>
-                                <div class="w3-row">             
-                                    <div class="w3-col m4 s4 l4">
-                                        <div class="cdev" data-percent="70" data-duration="2000" data-color=",#e74c3c"></div>
-                                        <h3 class="skill-title">Adobe Xd</h3>
-                                    </div>
-
-                                    <div class="w3-col m4 s4 l4">
-                                        <div class="cdev" data-percent="55" data-duration="2000" data-color=",#2c3e50"></div>
-                                        <h3 class="skill-title">Adobe Photoshop</h3>
-                                    </div>
-
-                                    <div class="w3-col m4 s4 l4">
-                                        <div class="cdev" data-percent="60" data-duration="2000" data-color=",#27ae60"></div>
-                                        <h3 class="skill-title">Adobe Illustrator</h3>
-                                    </div>
-                                </div>   
-                            </div>
-                            </div>
-                        <br>
-                            <div class="progress-one w3-card-4" data-aos="fade-up">
-                                <div class="back-drop">
-                                <h4 class="progress-tittle-w3">Front End Development</h4>
-                                <div class="w3-row">             
-                                    <div class="w3-col m4 s4 l4 margin">
-                                        <div class="cdev" data-percent="95" data-duration="2000" data-color="#bdc3c7,#3498db"></div>
-                                        <h3 class="skill-title">HTML</h3>
-                                    </div>
-
-                                    <div class="w3-col m4 s4 l4 margin">
-                                        <div class="cdev" data-percent="90" data-duration="2000" data-color="#bdc3c7,#3498db"></div>
-                                        <h3 class="skill-title">CSS</h3>
-                                    </div>
-
-                                    <div class="w3-col m4 s4 l4 margin">
-                                        <div class="cdev" data-percent="85" data-duration="2000" data-color="#bdc3c7,#3498db"></div>
-                                        <h3 class="skill-title">Jquery</h3>
-                                    </div>
-                                    <div class="w3-col m4 s4 l4">
-                                        <div class="cdev" data-percent="80" data-duration="2000" data-color="#bdc3c7,#3498db"></div>
-                                        <h3 class="skill-title">Javascript</h3>
-                                    </div>
-
-                                    <div class="w3-col m4 s4 l4">
-                                        <div class="cdev" data-percent="82" data-duration="2000" data-color="#bdc3c7,#3498db"></div>
-                                        <h3 class="skill-title">Angular</h3>
-                                    </div>
-
-                                    <div class="w3-col m4 s4 l4">
-                                        <div class="cdev" data-percent="70" data-duration="2000" data-color="#bdc3c7,#3498db"></div>
-                                        <h3 class="skill-title">Typescript</h3>
-                                    </div>
-                                </div> 
-                            </div>
-
-                            </div>
-                            <br>
-
-                            <div class="progress-one w3-card-4" data-aos="fade-up">
-                                <div class="back-drop">
-                                <h4 class="progress-tittle-w3">Backend Development</h4>
-                                <div class="w3-row">             
-                                    <div class="w3-col m4 s4 l4">
-                                        <div class="cdev" data-percent="80" data-duration="2000" data-color="#bdc3c7,#3498db"></div>
-                                        <h3 class="skill-title">PHP</h3>
-                                    </div>
-
-                                    <div class="w3-col m4 s4 l4">
-                                        <div class="cdev" data-percent="70" data-duration="2000" data-color="#bdc3c7,#3498db"></div>
-                                        <h3 class="skill-title">Laravel</h3>
-                                    </div>
-
-                                    <div class="w3-col m4 s4 l4">
-                                        <div class="cdev" data-percent="80" data-duration="2000" data-color="#bdc3c7,#3498db"></div>
-                                        <h3 class="skill-title">MySQL</h3>
-                                    </div>
-                                </div>  
-                                </div> 
-                            </div>
-
-                        </div>
-               
+            </nav>
+            <div class="container hero">
+                <div class="row">
+                    <div class="col-12 col-lg-6 col-xl-6 offset-xl-1 mx-auto" style="text-align:center;">
+                        <h1>JAMES KIOK0</h1>
+                        <p style="color: #ff4a57;">Web Designer &amp;&nbsp; Developer</p><a href="#folio"><button class="btn btn-light btn-lg action-button" style="padding-right: 20px;padding-left: 20px;padding-bottom: 6px;padding-top: 6px;font-size: 25px;margin-top: 30px;" hover="background: #fff; color: #333;" type="button">My Porfolio</button></a>
+                    </div>
+                    <div class="col-md-6 col-lg-6 offset-lg-1 offset-xl-0 d-none d-lg-block phone-holder">
+                        <div class="iphone-mockup" style="margin-top: 0px;"><img class="device img-fluid" src="assets/img/my_pic.png"></div>
                     </div>
                 </div>
             </div>
         </div>
-        
-        
-    </section>
-    
-    <!-- //services -->
-    <!-- /experience -->
-    <header class="svg_header">
-        <h1 class="tittle-w3 text-uppercase mb-lg-5 mb-3">Job & Education</h1>
-        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 100" preserveAspectRatio="none">
-          <circle fill="white" cx="0" cy="100" r="100" />
-          <circle fill="white" cx="200" cy="100" r="100" />
-        </svg>
-      </header>
-
-    <section class="experience py-lg-5 py-4" id="experience">
-        <div class="timeline py-lg-5 py-3">
-            <!-- <h4 class="sub-tittle-w3 text-uppercase text-center">Experience</h4>
-            <h3 class="tittle-w3 text-uppercase mb-lg-5 mb-3 text-center">Job & Education</h3> -->
-            <div id="my-timeline"></div>
-        </div>
-
-    </section>
-    <!-- //experience -->
-    <!--projects -->
-
-    <header class="svg_header">
-        <h1 class="tittle-w3 text-uppercase mb-lg-5 mb-3">My projects</h1>
-        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 100" preserveAspectRatio="none">
-          <circle fill="white" cx="0" cy="100" r="100" />
-          <circle fill="white" cx="200" cy="100" r="100" />
-        </svg>
-      </header>
-
-    <section class="gallery py-md-5 py-3" id="projects">
-        <div class="gallery-inner container py-md-5 pb-3">
-
-        <!-- Portfolio Gallery Grid -->
+    </div>
+    <div class="container container-fluid" id="skillset" style="padding-bottom: 100px;">
+        <h1 class="text-center mb-2 mt-5" style="font-family: 'Roboto Mono', monospace;font-size: 40px;font-weight: 600;color: #ff4a57;">Skills</h1>
+        <h4 class="text-center text-white mb-4">Here is my skills and experience.<br></h4>
         <div class="row">
-            <div class="column">
-            <div class="content w3-card-2 w3-hover-shadow">
-                <img src="images/kalabars.jpg" alt="Kalabars" class="proj-img" style="width:100%">
-                <h3 class="w3-margin-top">Kalabars</h3>
-                <p>A video on demand streaming platform aimed at promoting and reclaiming african culture.</p>
-                <a   href="https://kalabars.com/" target="_blank" class="w3-btn w3-teal w3-round btn">Visit Site</a>
-            </div>
-            </div>
-            <div class="column">
-            <div class="content w3-card-2 w3-hover-shadow">
-            <img src="images/delivaflix.png" alt="Delivaflix" class="proj-img" style="width:100%">
-                <h3 class="w3-margin-top">Delivaflix</h3>
-                <p>Online entertainment shop for sharing of movies,series, albums and pc games.</p>
-                <a href="https://delivaflix.co.ke/" target="_blank" class="w3-btn w3-teal w3-round btn">Visit Site</a>
-            </div>
-            </div>
-            <div class="column">
-            <div class="content w3-card-2 w3-hover-shadow">
-            <img src="images/limitless.png" alt="Oasis Africa" class="proj-img"  style="width:100%">
-                <h3 class="w3-margin-top">Oasis Africa </h3>
-                <p>An out of the box Agency that focuses on getting your brand out into the market.</p>
-                <a href="http://oasisafricaltd.com/" target="_blank" class="w3-btn w3-teal w3-round btn">Visit Site</a>
-            </div>
-            </div>
-            <div class="column">
-            <div class="content w3-card-2 w3-hover-shadow">
-            <img src="images/josantos.jpg" alt="Josantos Contracts" class="proj-img"  style="width:100%">
-                <h3 class="w3-margin-top">Josantos Contracts</h3>
-                <p>A limited company dealing with stunning and all round interior house designs.</p>
-                <a href="http://josantoscontracts.co.ke/" target="_blank" class="w3-btn w3-teal w3-round btn">Visit Site</a>
-            </div>
-            </div>
-        <!-- END GRID -->
-        </div>
-  
-        <div class="content w3-card-2 w3-hover-shadow">
-            <img src="images/lockin.jpg" alt="Bear" style="width:100%">
-            <h3 class="w3-margin-top">Lockin Festival</h3>
-            <p>Creatives Garage in partnership with other supportive brands came together 
-                to design and implement the LockIn festival, a virtual arts and culture 
-                event. The idea emerged as a reaction to the 
-                current financial disaster faced by creatives.</p>
-            <!-- <p>Lorem ipsum dolor sit amet, tempor prodesset eos no. Temporibus necessitatibus sea ei, at tantas oporteat nam. Lorem ipsum dolor sit amet, tempor prodesset eos no.</p> -->
-            <a href="https://lockinfestival.org/" target="_blank" class="w3-btn w3-teal w3-round btn">Visit Site</a>
-        </div>
-  
-            <!-- //gallery container -->
-        </div>
-    </section>
-    <!-- //gallery -->
-    
-    <!-- /Contact-->
-    <section class="contact py-lg-5 py-md-5 py-3" id="contact" style="margin-bottom: 5em;">
-        <div class="container">
-            <div class="inner-sec-w3ls py-lg-5 py-3">
-                <h4 class="sub-tittle-w3 text-uppercase text-center">Find Me</h4>
-                <h3 class="tittle-w3 text-uppercase mb-lg-5 mb-3 text-center text-white">Contact Me Now</h3>
-
-                <div class="contact_grid_right">
-                    <form action="https://formspree.io/mrgqqbev" method="post">
-                        <div class="row contact_left_grid">
-                            <div class="col-md-6 con-left" data-aos="fade-up">
-                                <div class="form-group">
-
-                                    <input class="form-control" type="text" name="Name" placeholder="Your Name" required="">
-                                </div>
-                                <div class="form-group">
-
-                                    <input class="form-control" type="email" name="Email" placeholder="Email" required="">
-                                </div>
-                                <div class="form-group">
-
-                                    <input class="form-control" type="text" name="Subject" placeholder="Subject" required="">
-                                </div>
-                            </div>
-                            <div class="col-md-6 con-right" data-aos="fade-up">
-                                <div class="form-group">
-                                    <textarea id="textarea" name="message" placeholder="message" required=""></textarea>
-                                </div>
-                            </div>
-                            <div class="sub-honey mx-auto mt-3">
-                                <input class="form-control" type="submit" value="Submit"> </div>
-                        </div>
-                        <!-- <input type="hidden" name="_next" value="thanks.html"/> -->
-                    </form>
-                </div>
-                <div class="address row mt-lg-5">
-
-                    <div class="col-md-4 address-grid" data-aos="flip-up">
-                        <div class="address-info">
-                            <div class="address-left text-center">
-                                <i class="far fa-map"></i>
-                            </div>
-                            <div class="address-right text-center">
-                                <h6 class="my-3">Address</h6>
-                                <p> Nairobi, Kenya
-
-                                </p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-4 address-grid" data-aos="flip-up">
-                        <div class="address-info">
-                            <div class="address-left text-center">
-                                <i class="far fa-envelope"></i>
-                            </div>
-                            <div class="address-right text-center">
-                                <h6 class="my-3">Email</h6>
-                                <p>
-                                    <a href="mailto:jamoaz.jk@gmail.com"> Jamoaz.jk@gmail.com</a>
-                                </p>
-                            </div>
-
-                        </div>
-                    </div>
-                    <div class="col-md-4 address-grid" data-aos="flip-up">
-                        <div class="address-info">
-                            <div class="address-left text-center">
-                                <i class="fas fa-mobile-alt"></i>
-                            </div>
-                            <div class="address-right text-center">
-                                <h6 class="my-3">Phone</h6>
-                                <p>0708837965</p>
-
-                            </div>
-
-                        </div>
+            <div class="col-12 col-sm-12 col-md-6 col-lg-4 col-xl-4">
+                <div class="card skill-card p-2 border-0 mt-2">
+                    <div class="card-body">
+                        <h4 class="card-title text-white">UX/UI Design<button class="btn btn-primary float-end btn-sm border-0 mt-2" type="button" style="background: #ff4a57;">Very Good</button></h4>
+                        <h6 class="text-text-muted card-subtitle mb-2 text-white">4 years experience</h6>
+                        <p class="card-text mt-3 mb-2 text-white">Highly proficient in UI design and very keen to detail to capture the user eyes and keeping them engaged.</p>
+                        <h6 class="mt-5 text-white">Adobe XD, Adobe Illustrator, Adobe Photoshop</h6>
                     </div>
                 </div>
             </div>
-        </div>
-    </section>
-    <!-- //Contact -->
-    <!--/footer-->
-    <footer class="footer text-left">
-        <div class="container py-4 py-sm-5">
-
-            <div class="row py-sm-4 py-3">
-                <div class="col-lg-2 col-md-4">
-                    <ul class="list-footer" data-aos="fade-up">
-                        <li>
-                            <a href="#home" class="nav-link scroll">
-                                Home
-                            </a>
-                        </li>
-                        <li class="my-2">
-                            <a href="#about" class="nav-link scroll">
-                               About
-                            </a>
-                        </li>
-                        <li class="my-2">
-                            <a href="#services" class="nav-link scroll">
-                               Services
-                            </a>
-                        </li>
-                        <li class="mb-2">
-                            <a href="#projects" class="nav-link scroll">
-                              Projects
-                            </a>
-                        </li>
-                        <li>
-                            <a href="#contact" class="nav-link scroll">
-                                Contact Us
-                            </a>
-                        </li>
-                    </ul>
-                </div>
-<!--
-                <div class="col-lg-2 col-md-4 col-sm-6 mt-sm-5">
-                    <ul class="list-footer" data-aos="fade-up">
-                        <li>
-                            <a href="#register" data-toggle="modal" data-target="#exampleModalCenter" class="nav-link scroll">
-                                Login
-                            </a>
-                        </li>
-                        <li class="my-2">
-                            <a href="#" data-toggle="modal" data-target="#exampleModalCenter2" class="nav-link">
-                               Register
-                            </a>
-                        </li>
-                        <li class="my-2">
-                            <a href="#" class="nav-link">
-                                License
-                            </a>
-                        </li>
-                    </ul>
-                </div>
--->
-                <div class="offset-lg-4"></div>
-                <div class="col-lg-4 footer-end-grid mt-md-0 mt-sm-5" data-aos="fade-up">
-                    <h2>
-                        <a href="index.html">
-                   <i class="fas fa-crosshairs"></i> James
-                </a>
-                    </h2>
-                </div>
-            </div>
-            <hr>
-            <div class="d-flex justify-content-between pt-lg-3  footer-bottom-cpy">
-                <div class="copy-right-w3ls">
-                    <p>© 2020. All rights reserved | Design by James
-                        <!-- <a href="http://w3layouts.com/"> W3layouts </a> -->
-
-                    </p>
-                </div>
-                <div class="social-content pb-md-0 pb-4">
-                    <ul class="social-icons text-center d-flex">
-                        <li class="ml-lg-5">
-                            <a href="#">
-                                <i class="fab fa-facebook-f"></i>
-                            </a>
-                        </li>
-                        <li>
-                            <a href="#">
-                                <i class="fab fa-twitter"></i>
-                            </a>
-                        </li>
-                        <li>
-                            <a href="#">
-                                <i class="fab fa-google-plus-g"></i>
-                            </a>
-                        </li>
-                        <li>
-                            <a href="#">
-                                <i class="fab fa-linkedin-in"></i>
-                            </a>
-                        </li>
-                    </ul>
-                </div>
-            </div>
-        </div>
-    </footer>
-    <!--//footer-->
-
-    <!--model-forms-->
-    <!--/Login-->
-    <div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-hidden="true">
-        <div class="modal-dialog modal-dialog-centered" role="document">
-            <div class="modal-content">
-                <div class="modal-header text-center">
-                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                        <span aria-hidden="true">&times;</span>
-                    </button>
-                </div>
-                <div class="modal-body">
-
-                    <div class="login px-4 mx-auto mw-100">
-                        <h5 class="text-center mb-4">Login Now</h5>
-                        <form action="#" method="post">
-                            <div class="form-group">
-                                <label class="mb-2">Email address</label>
-                                <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="" required="">
-                                <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
-                            </div>
-                            <div class="form-group">
-                                <label class="mb-2">Password</label>
-                                <input type="password" class="form-control" id="exampleInputPassword1" placeholder="" required="">
-                            </div>
-                            <div class="form-check mb-2">
-                                <input type="checkbox" class="form-check-input" id="exampleCheck1">
-                                <label class="form-check-label" for="exampleCheck1">Check me out</label>
-                            </div>
-                            <button type="submit" class="btn btn-primary submit mb-4">Sign In</button>
-                            <p class="text-center pb-4">
-                                <a href="#" data-toggle="modal" data-target="#exampleModalCenter2"> Don't have an account?</a>
-                            </p>
-                        </form>
+            <div class="col-12 col-sm-12 col-md-6 col-lg-4 col-xl-4">
+                <div class="card skill-card p-2 border-0 mt-2" style="background: linear-gradient(320deg, #313134, #d0ae9a);">
+                    <div class="card-body">
+                        <h5 class="card-title text-white">Web Development<button class="btn btn-primary float-end btn-sm border-0 mt-2" type="button" style="background: #ff4a57;">Excellent</button></h5>
+                        <h6 class="text-text-muted card-subtitle mb-2 text-white">4 years experience</h6>
+                        <p class="card-text mt-3 mb-2 text-white">From front-end to backend web development. Indepth knowledge in payment systems.</p>
+                        <h6 class="mt-5 text-white">HTML, CSS, Javascript, Jquery, Angular, PHP, Laravel ,Phalcon, Daraja API</h6>
                     </div>
                 </div>
-
+            </div>
+            <div class="col-12 col-sm-12 col-md-6 col-lg-4 col-xl-4">
+                <div class="card skill-card p-2 border-0 mt-2">
+                    <div class="card-body">
+                        <h4 class="card-title text-white">SEO Expert<button class="btn btn-primary float-end btn-sm border-0 mt-2" type="button" style="background: #ff4a57;">Very Good</button></h4>
+                        <h6 class="text-text-muted card-subtitle mb-2 text-white">2 years experience</h6>
+                        <p class="card-text mt-3 mb-2 text-white">Be the First to be Recognised in google search console with my skillset in optimizing website rankings.</p>
+                        <h6 class="mt-5 text-white">Google search Console, Google Keyword Planner, Google Analytics</h6>
+                    </div>
+                </div>
             </div>
         </div>
     </div>
-    <!--//Login-->
-    <!--/Register-->
-    <div class="modal fade" id="exampleModalCenter2" tabindex="-1" role="dialog" aria-hidden="true">
-        <div class="modal-dialog modal-dialog-centered" role="document">
-            <div class="modal-content">
-                <div class="modal-header text-center">
-                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                        <span aria-hidden="true">&times;</span>
-                    </button>
+    <div class="container container-fluid portfolio" id="folio" style="padding-bottom: 100px;">
+        <h1 class="pt-5" style="font-family: 'Roboto Mono', monospace;font-size: 40px;font-weight: 600;text-align: center;color: #ff4a57;">Portfolio</h1>
+        <h4 class="text-white mb-5" style="text-align: center;">Awesome websites that I have worked on<br></h4>
+        <div class="row">
+            <div class="col-12 col-sm-12 col-md-7 col-lg-8 col-xl-8 col-xxl-8"><img class="img-fluid" src="assets/img/kalabars.jpg"></div>
+            <div class="col-12 col-sm-12 col-md-5 col-lg-4 col-xl-4 col-xxl-4">
+                <div class="float-end">
+                    <h5 class="mt-5 pt-4 pl-3 text-white text-uppercase" style="font-size: 12px;">Front End Development</h5>
+                    <h1 class="text-white mt-3" style="font-size: 50px;font-family: 'Roboto Mono', monospace;font-weight: 600;">Kalabars</h1>
+                    <p class="mt-5 text-white ml-2" style="font-size: 18px;">A video on demand streaming platform aimed at promoting and reclaiming african culture.<br></p><button class="btn btn-primary mt-2 text-uppercase btn-sm bg-transparent border-0" type="button" style="color: var(--bs-pink);font-family: 'Roboto Mono', monospace;font-weight: 500;">View Site</button>
                 </div>
-                <div class="modal-body">
-                    <div class="login px-4 mx-auto mw-100">
-                        <h5 class="text-center mb-4">Register Now</h5>
-                        <form action="#" method="post">
-                            <div class="form-group">
-                                <label>First name</label>
-
-                                <input type="text" class="form-control" id="validationDefault01" placeholder="" required="">
-                            </div>
-                            <div class="form-group">
-                                <label>Last name</label>
-                                <input type="text" class="form-control" id="validationDefault02" placeholder="" required="">
-                            </div>
-
-                            <div class="form-group">
-                                <label class="mb-2">Password</label>
-                                <input type="password" class="form-control" id="password1" placeholder="" required="">
-                            </div>
-                            <div class="form-group">
-                                <label>Confirm Password</label>
-                                <input type="password" class="form-control" id="password2" placeholder="" required="">
-                            </div>
-
-                            <button type="submit" class="btn btn-primary submit mb-4">Register</button>
-                            <p class="text-center pb-4">
-                                <a href="#">By clicking Register, I agree to your terms</a>
-                            </p>
-                        </form>
-
-                    </div>
+            </div>
+        </div>
+        <div class="row mt-5">
+            <div class="col-12 col-sm-12 col-md-5 col-lg-4 col-xl-4 col-xxl-4">
+                <div class="float-end">
+                    <h5 class="mt-5 pt-4 pl-3 text-white text-uppercase" style="font-size: 12px;">Front End Development</h5>
+                    <h1 class="text-white mt-3" style="font-size: 35px;font-family: 'Roboto Mono', monospace;font-weight: 600;">Lockin Festival</h1>
+                    <p class="mt-5 text-white ml-2" style="font-size: 18px;">Creatives Garage in partnership with other supportive brands came together <br> to design and implement the LockIn festival, a virtual arts and culture event.&nbsp;<br></p><button class="btn btn-primary mt-2 text-uppercase btn-sm bg-transparent border-0" type="button" style="color: var(--bs-pink);font-family: 'Roboto Mono', monospace;font-weight: 500;">View Site</button>
                 </div>
-
+            </div>
+            <div class="col-12 col-sm-12 col-md-7 col-lg-8 col-xl-8 col-xxl-8"><img class="img-fluid" src="assets/img/lockin.jpg"></div>
+        </div>
+        <div class="row mt-5">
+            <div class="col-12 col-sm-12 col-md-7 col-lg-8 col-xl-8 col-xxl-8"><img class="img-fluid" src="assets/img/oasis.png"></div>
+            <div class="col-12 col-sm-12 col-md-5 col-lg-4 col-xl-4 col-xxl-4">
+                <div class="float-end">
+                    <h5 class="mt-5 pt-4 pl-3 text-white text-uppercase" style="font-size: 12px;">WEB development</h5>
+                    <h1 class="text-white mt-3" style="font-size: 40px;font-family: 'Roboto Mono', monospace;font-weight: 600;">Oasis Africa</h1>
+                    <p class="mt-5 text-white ml-2" style="font-size: 18px;">An out of the box Agency that focuses on getting your brand out into the market through Branding, PR and Digital Marketing.<br></p><button class="btn btn-primary mt-2 text-uppercase btn-sm bg-transparent border-0" type="button" style="color: var(--bs-pink);font-family: 'Roboto Mono', monospace;font-weight: 500;">View Site</button>
+                </div>
+            </div>
+        </div>
+        <div class="row mt-5">
+            <div class="col-12 col-sm-12 col-md-5 col-lg-4 col-xl-4 col-xxl-4">
+                <div class="float-end">
+                    <h5 class="mt-5 pt-4 pl-3 text-white text-uppercase" style="font-size: 12px;">Design, front ent development</h5>
+                    <h1 class="text-white mt-3" style="font-size: 40px;font-family: 'Roboto Mono', monospace;font-weight: 600;">GermanRide Hub</h1>
+                    <p class="mt-5 text-white ml-2" style="font-size: 18px;">We are a market place where users can buy or sell German cars (AUDI, BMW, PORSCHE, VW and MERCEDES BENZ) in Kenya.<br></p><button class="btn btn-primary mt-2 text-uppercase btn-sm bg-transparent border-0" type="button" style="color: var(--bs-pink);font-family: 'Roboto Mono', monospace;font-weight: 500;">View Site</button>
+                </div>
+            </div>
+            <div class="col-12 col-sm-12 col-md-7 col-lg-8 col-xl-8 col-xxl-8"><img class="img-fluid" src="assets/img/german-cars.jpg"></div>
+        </div>
+        <div class="row mt-5">
+            <div class="col-12 col-sm-12 col-md-7 col-lg-8 col-xl-8 col-xxl-8"><img class="img-fluid" src="assets/img/betika.jpg"></div>
+            <div class="col-12 col-sm-12 col-md-5 col-lg-4 col-xl-4 col-xxl-4">
+                <div class="float-end">
+                    <h5 class="mt-5 pt-4 pl-3 text-white text-uppercase" style="font-size: 12px;">Design, fRONT-ENT &amp; BACK-END development</h5>
+                    <h1 class="text-white mt-3" style="font-size: 50px;font-family: 'Roboto Mono', monospace;font-weight: 600;">Betika Tips</h1>
+                    <p class="mt-5 text-white ml-2" style="font-size: 18px;">Platform that provides sure football betting tips to it's&nbsp;users.&nbsp;</p><button class="btn btn-primary mt-2 text-uppercase btn-sm bg-transparent border-0" type="button" style="color: var(--bs-pink);font-family: 'Roboto Mono', monospace;font-weight: 500;">View Site</button>
+                </div>
             </div>
         </div>
     </div>
-    <!--//Register-->
-
-    <script src="js/jquery-2.2.3.min.js"></script>
-    <!-- banner-type-text -->
-    <script src='js/aos.js'></script>
-    <script>
-        AOS.init({
-            easing: 'ease-out-back',
-            duration: 1000
-        });
-
-    </script>
-    <!-- sticky nav bar-->
-    <script>
-        $(() => {
-
-            //On Scroll Functionality
-            $(window).scroll(() => {
-                var windowTop = $(window).scrollTop();
-                windowTop > 100 ? $('nav').addClass('navShadow') : $('nav').removeClass('navShadow');
-                windowTop > 100 ? $('ul.nav-honey').css('top', '50px') : $('ul.nav-honey').css('top', '160px');
-            });
-
-            //Click Logo To Scroll To Top
-            $('#logo').on('click', () => {
-                $('html,body').animate({
-                    scrollTop: 0
-                }, 500);
-            });
-
-            //            //Smooth Scrolling Using Navigation Menu
-            //            $('a[href*="#"]').on('click', function(e) {
-            //                $('html,body').animate({
-            //                    scrollTop: $($(this).attr('href')).offset().top - 100
-            //                }, 500);
-            //                e.preventDefault();
-            //            });
-
-            //Toggle Menu
-            $('#menu-toggle').on('click', () => {
-                $('#menu-toggle').toggleClass('closeMenu');
-                $('ul').toggleClass('showMenu');
-
-                $('li').on('click', () => {
-                    $('ul').removeClass('showMenu');
-                    $('#menu-toggle').removeClass('closeMenu');
-                });
-            });
-
-        });
-
-    </script>
-    <!-- //sticky nav bar -->
-    <!-- Include jQuery Timeline Plugin -->
-    <script src="js/jquery.roadmap.js"></script>
-
-    <script>
-        $(document).ready(function() {
-
-            var events = [{
-                    date: 'Jan 2020 - Present',
-                    content: 'Creatives Garage <small> FrontEnd Web Developer</small>'
-                },
-                {
-                    date: 'Oct 2018 - Present',
-                    content: 'Delivaflix <small> Web Designer & Developer(Part Time)</small>'
-                },
-                {
-                    date: 'July 2019 - Oct 2019',
-                    content: 'Creatives Garage <small> FrontEnd Web Developer Internship</small>'
-                },
-                {
-                    date: '2017',
-                    content: 'Sololearn Programming lessons<small>Certificate in Python, JavaScript, PHP, CSS, HTML & Java</small>'
-                },
-               
-                {
-                    date: '2015 - 2019',
-                    content: 'Jomo Kenyatta University of Agriculture & Technology <small>Bachelor of Mathematics and computer science</small>'
-                },
-                // {
-                //     date: '2011 - 2014',
-                //     content: 'Kitondo Boys High School  <small>Kenya certificate of Kenya Education</small>'
-                // }
-            ];
-
-            $('#my-timeline').roadmap(events, {
-                eventsPerSlide: 5,
-                slide: 1,
-                prevArrow: '<i class="fas fa-chevron-left"></i>',
-                nextArrow: '<i class="fas fa-chevron-right"></i>'
-            });
-        });
-
-    </script>
-    <!-- simpleLightbox -->
-    <script src="js/simpleLightbox.js"></script>
-    <script>
-        $('.proj_gallery_grid a').simpleLightbox();
-
-    </script>
-    <!-- //simpleLightbox -->
-    <!-- stats -->
-    <script src="js/jquery.waypoints.min.js"></script>
-    <script src="js/jquery.countup.js"></script>
-    <script>
-        $('.counter').countUp();
-
-    </script>
-    <!-- //stats -->
-
-    <!--/ start-smoth-scrolling -->
-    <script src="js/move-top.js"></script>
-    <script src="js/easing.js"></script>
-    <script>
-        jQuery(document).ready(function($) {
-            $(".scroll").click(function(event) {
-                event.preventDefault();
-                $('html,body').animate({
-                    scrollTop: $(this.hash).offset().top
-                }, 900);
-            });
-        });
-
-    </script>
-    <script>
-        $(document).ready(function() {
-            /*
-            						var defaults = {
-            							  containerID: 'toTop', // fading element id
-            							containerHoverID: 'toTopHover', // fading element hover id
-            							scrollSpeed: 1200,
-            							easingType: 'linear' 
-            						 };
-            						*/
-
-            $().UItoTop({
-                easingType: 'easeOutQuart'
-            });
-
-        });
-
-    </script>
-    <!--// end-smoth-scrolling -->
-    
-    <script src="js/circlos.js"></script>
-
-    <!-- //js -->
-
-
-    <script src="circlos.js"></script>
-    <script>
-     $(document).ready(function(){
-      // init
-         $(".cdev").circlos();
-     });
-    </script>
-
-    <script src="js/bootstrap.js"></script>
-
+    <div class="footer-dark">
+        <div style="text-align:center;">
+            <h2 class="divider-style" style="margin-top:0px;"><span style="background-color:rgb(40, 45, 50);"><a href="#"><i class="fa fa-globe"></i></a>&nbsp;</span></h2>
+        </div>
+        <footer>
+            <div class="container">
+                <p class="copyright">copyright© 2021. Designed with Love by Me.</p>
+            </div>
+        </footer>
+    </div>
+    <script src="assets/bootstrap/js/bootstrap.min.js"></script>
+    <script src="assets/js/Header-Blue--Sticky-Header--Smooth-Scroll-1.js"></script>
+    <script src="assets/js/Header-Blue--Sticky-Header--Smooth-Scroll.js"></script>
 </body>
 
 </html>
